@@ -7,6 +7,7 @@ import Login from "./pages/Login"
 import Crudfunction from "./pages/Crudfunction";
 import Firestorage from './pages/Firestorage'
 import Videoupload from './pages/Videoupload'
+import Rules from './pages/Rules'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/crud' element={<Crudfunction/>}/>
         <Route path='/storage' element={<Firestorage/>}/>
         <Route path='/videoupload' element={<Videoupload/>}/>
+        <Route path='/rules' element={<Rules/>}/>
       </Routes>
     </Router>
   )
